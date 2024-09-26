@@ -14,21 +14,25 @@
 </head>
 
 <body>
-    <nav class="navbar bg-dark fixed-top justify-content-center">
-        <ul class="nav ">
+     <nav class="navbar bg-dark fixed-top justify-content-center ">
+        <ul class="nav justify-content-center">
 
-            <li class="nav-item ">
-                <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
-            </li>
             <li class="nav-item">
-                <a class="nav-link" href="conteudo.html">Conteúdo</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="feedback.php">Feedback</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Assuntos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="casas.html">Casas Inteligentes</a></li>
+                  <li><a class="dropdown-item" href="fazer.html">Como é feita a automação</a></li>
+                  <li><a class="dropdown-item" href="beneficios.html">Benefícios</a></li>
+                </ul>
+              </li>
         </ul>
 
     </nav>

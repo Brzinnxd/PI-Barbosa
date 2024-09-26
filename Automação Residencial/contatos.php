@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>FEEDBACK</h1>
+    <h1>CONTATOS</h1>
 </body>
 </html>

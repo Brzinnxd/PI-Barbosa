@@ -141,3 +141,13 @@ p {
       
   
 
+iframe {
+  border: white solid;
+}
+
+hr{
+  border: none; /* Remove a borda padrão */
+  height: 4px; /* Define a espessura */
+  background-color: #56a0ec; /* Define a cor da linha */
+  margin: 20px 0; /* Define margem acima e abaixo */
+}
