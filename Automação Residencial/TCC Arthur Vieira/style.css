@@ -9,6 +9,10 @@ body {
   width: 30rem;
 }
 
+.logo{
+  width: 7%;
+}
+
 .titulo {
     color: #56a0ec;
 }
